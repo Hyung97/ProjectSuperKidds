@@ -69,7 +69,7 @@ return [
     'usermenu_header_class' => 'bg-orange',
     'usermenu_image' => true,
     'usermenu_desc' => true,
-    'usermenu_profile_url' => true,
+    'usermenu_profile_url' => false,
 
     /*
     |--------------------------------------------------------------------------
@@ -244,7 +244,7 @@ return [
 
         [
             'text' => 'Video',
-            'url'  => 'video',
+            'url'  => 'VideoController',
             'icon'=> 'fas fa-fw fa-video'
         ],
 
@@ -273,58 +273,64 @@ return [
         ],
 
         [
-            'text'    => 'multilevel',
-            'icon'    => 'fas fa-fw fa-share',
-            'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-                [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-            ],
+            'text' => 'Ayuda',
+            'url'  => '#',
+            'icon'=> 'fas fa-fw fa-info'
         ],
+
+       // [
+            //'text'    => 'multilevel',
+            //'icon'    => 'fas fa-fw fa-share',
+          //  'submenu' => [
+                //[
+                  //  'text' => 'level_one',
+                  //  'url'  => '#',
+             //   ],
+              //  [
+                  //  'text'    => 'level_one',
+                //    'url'     => '#',
+                 //   'submenu' => [
+                   //     [
+                  //          'text' => 'level_two',
+                     //       'url'  => '#',
+                     //   ],
+                      //  [
+                        //    'text'    => 'level_two',
+                      //      'url'     => '#',
+                       //     'submenu' => [
+                        //        [
+                         //           'text' => 'level_three',
+                           //         'url'  => '#',
+                             //   ],
+                               // [
+                               //     'text' => 'level_three',
+                         //           'url'  => '#',
+                       //         ],
+                     //       ],
+                   //     ],
+                 //   ],
+               // ],
+               // [
+               //     'text' => 'level_one',
+             //       'url'  => '#',
+           //     ],
+         //   ],
+       // ],
         
         
-        ['header' => 'Configuración de Cuenta'],
-        [
-            'text' => 'Perfil',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
-            'icon_color' => 'cyan',
-        ],
-        [
-            'text' => 'Cambiar Contrase;a',
-            'url'  => 'reset-password',
-            'icon' => 'fas fa-fw fa-lock',
-            'icon_color' => 'cyan',
-        ],
+     //   ['header' => 'Configuración de Cuenta'],
+       // [
+         //   'text' => 'Perfil',
+           // 'url'  => 'admin/settings',
+            //'icon' => 'fas fa-fw fa-user',
+           // 'icon_color' => 'cyan',
+        //],
+       // [
+         //   'text' => 'Cambiar Contrase;a',
+           // 'url'  => 'reset-password',
+            //'icon' => 'fas fa-fw fa-lock',
+            //'icon_color' => 'cyan',
+       // ],
         
     ],
 

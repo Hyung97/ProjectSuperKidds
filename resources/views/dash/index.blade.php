@@ -11,10 +11,10 @@
 @section('content')
     <div class="card">
         <div class="card-header">
-            <h5 class="card-tittle">Prueba</h5>
+            <h5 class="card-tittle">Bienvenidos a SuperKids!</h5>
         </div>
             <div class="card-body">
-                <p>HOLA</p>
+                <p>El lanzamiento oficial será a finales de Diciembre de 2021.</p>
             </div>
     </div>
 @stop
