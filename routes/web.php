@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\VideoController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,11 +22,3 @@ Route::get('/', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dash', function () {
     return view('dash.index');
 })->name('dash');
-
-Route::get('dash/video', );
-
-Route::resource('')
-
-
-
-
